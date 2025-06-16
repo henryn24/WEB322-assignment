@@ -1,0 +1,19 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css --watch"
+  },
+  "author": "Hoang Nguyen",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
